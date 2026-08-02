@@ -1,0 +1,7 @@
+name: healthcheck
+on: push
+jobs:
+  hc:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "healthcheck ok"
